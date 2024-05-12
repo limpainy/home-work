@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.back{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(68, 67, 67, 0.75)), url('https://getwallpapers.com/wallpaper/full/5/a/c/423114.jpg');
+}
+.search_box{
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(71, 71, 71, 0.5));
+    height: 30px;
+    padding: 15px;
+    border-radius: 40px;
+    position: absolute;
+}
+.search_text{
+    color: #ffffff;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: none;
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.search_loupe{
+    float: right;
+    height: 30px;
+    color: #ffffff;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+input::placeholder{
+    color: #ffffff;
+}
+.sometxt{
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%,50%);
+    position: absolute;
+    top: 30%;
+}
+.font_styling_1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #ffffff;
+
+}
+.font_styling_2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
